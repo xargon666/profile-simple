@@ -1,0 +1,39 @@
+.projects-wrapper {
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+.projects-carousel-wrapper {
+    display:flex;
+    justify-content: center;
+}
+
+.projects-carousel-inner {
+    width:75% !important;
+}
+
+.projects-carousel {
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background-color: var(--dark-bg);
+    padding: 1rem;
+    /* transform: translateX(125%) translateY(-50%); */
+}
+
+@media only screen and (max-width: 1000px) {
+    .projects-wrapper {
+    min-height:100vh;
+    }
+    
+    .carousel-caption {
+        position: static !important;
+        margin-top: 1rem;
+        /* transform: translateX(0) translateY(0); */
+    }
+
+    .carousel-indicators {
+        transform: translate(-100%)
+    }
+}

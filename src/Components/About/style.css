@@ -1,0 +1,13 @@
+.about-wrapper{
+    display:flex;
+    justify-content:space-around;
+    color:white;
+    height:100vh;
+    margin-bottom:1rem;
+}
+
+.profile-pic-wrapper{
+    height:50vh;
+    overflow:hidden;
+}
+

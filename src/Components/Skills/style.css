@@ -1,0 +1,33 @@
+.skills-wrapper {
+    display:flex;
+    flex-direction: column;
+    background-color:var(--dark-bg);
+    color:white;
+}
+
+.skills-wrapper > h2 {
+    padding-left:1rem;
+}
+
+.skill-logos {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+.logo > .logo-img-wrapper > img {
+    height:calc(max(6vw,4.5rem));
+    width:calc(max(6vw,4.5rem));
+}
+
+.logo-img-wrapper{
+    padding:1rem;
+    background-color: #2f3353;
+}
+
+.logo {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:1rem;
+}
